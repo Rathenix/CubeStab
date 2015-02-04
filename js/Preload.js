@@ -16,8 +16,11 @@ CubeStab.Preload.prototype = {
 		this.load.setPreloadSprite(this.preloadBar); //This takes an image sprite and make it into a loading bar auto-magically
 		
 		//Load game images
+		this.load.image('floor', 'assets/images/floor.png');
 		this.load.image('background', 'assets/images/background.png');
 		this.load.image('clouds', 'assets/images/clouds.png');
+		this.load.image('red-p1', 'assets/images/red.png');
+		this.load.image('grey-cpu', 'assets/images/grey.png');
 		
 		//Load game sprites
 		this.load.spritesheet('title', 'assets/images/title.png', 500, 200);
